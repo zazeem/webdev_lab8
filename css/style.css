@@ -1,23 +1,25 @@
-.main-navbar {
+nav ul {
+  background-color: blue;
   text-align: center;
-  display: inline-block;
+  overflow: hidden;
+}
+
+nav li {
+  display: block;
+  margin: 0 20px;
+  
+}
+
+nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 aside {
+  display: block;
   position: fixed;
-right:0%;
-background-color: red;
-height: 100%;
-width: 20%;
-list-style-type: none;
-text-align: center;
-padding: 0;
-display: block;
-padding: 15px 0;
-color: #fff;
-text-decoration: none;
-background-color: #000;
+  right:0%;
+  padding: 15px 0;
+  right:0%;
 
 }
-
