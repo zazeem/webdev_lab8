@@ -5,12 +5,29 @@
 
 #main-navbar ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+  
 }
 
-#main-navbar a {
+#main-navbar ul li {
+  float: left; 
+  right: 50%;
+  position: relative;
+  display: block;
+}
+
+#main-navbar ul li a {
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+#main-navbar ul li a: hover {
+  color: #000;
 }
 
 #navbar-container {
@@ -24,7 +41,9 @@
 }
 
 #sidebar {
-  
+  position: fixed;
+  right:0%;
+
 }
 
 #sidebar-container {
