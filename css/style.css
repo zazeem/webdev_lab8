@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 
-#main-navbar ul li a: hover {
+#main-navbar ul li a:hover {
   color: #000;
 }
 
@@ -42,10 +42,19 @@
 
 #sidebar {
   position: fixed;
-  right:0%;
-
+  right: 0%;
+  height: 100%;
+  width: 20%;
+  background-color: red;
 }
 
 #sidebar-container {
-  
+  text-decoration: none;
+  padding: 15px 0;
+  display: block;
+  color: #fff;
+}
+
+#sidebar ul li a:hover {
+  color: #000;
 }
