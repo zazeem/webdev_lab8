@@ -1,13 +1,26 @@
 #main-navbar {
-  
+  overflow: hidden;
+  background-color: blue;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+}
+
+#main-navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 #navbar-container {
-  
+  width: 100%;
+  position: relative;
+  float: left;
 }
 
 #onpage {
-  
+  text-decoration: underline overline;
 }
 
 #sidebar {
